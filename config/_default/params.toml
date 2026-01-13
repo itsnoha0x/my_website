@@ -36,6 +36,12 @@ default = "Licensed under CC BY-NC-SA 4.0"
 [[widgets.page]]
 type = "toc"
 
+[[sidebar.widgets]]
+type = "profile"
+
+[[sidebar.widgets]]
+type = "menu"
+
 [opengraph.twitter]
 site = ""
 card = "summary_large_image"
