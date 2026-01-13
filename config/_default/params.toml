@@ -14,6 +14,7 @@ lastUpdated = "02 Jan 2006 15:04 MST"
 [sidebar]
 emoji = "💫"
 subtitle = "Cybersecurity Enthusiast and Writer"
+enabled = true
 
 compact = true
 
@@ -36,11 +37,6 @@ default = "Licensed under CC BY-NC-SA 4.0"
 [[widgets.page]]
 type = "toc"
 
-[[sidebar.widgets]]
-type = "profile"
-
-[[sidebar.widgets]]
-type = "menu"
 
 [opengraph.twitter]
 site = ""
@@ -65,3 +61,26 @@ enabled = true
 [comments]
 enabled = false
 
+
+[[sidebar.widgets]]
+type = "profile"
+
+[[sidebar.widgets]]
+type = "menu"
+
+# 🚫 Explicitly disable built-ins
+[[sidebar.widgets]]
+type = "archives"
+disabled = true
+
+[[sidebar.widgets]]
+type = "search"
+disabled = true
+
+[[sidebar.widgets]]
+type = "links"
+disabled = true
+
+
+[homepage]
+layout = "custom"
